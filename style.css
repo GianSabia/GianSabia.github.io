@@ -1,0 +1,104 @@
+.gothic
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:#fcc8c9;
+font-size:medium;
+}
+.cursive
+{
+    font-family:cursive;
+    color:rgb(212, 200, 252);
+ font-size:medium
+}
+
+.thickborder
+{
+border:15px #f6a9a9;
+margin:10%;
+padding:10%;
+border-style:solid;
+}
+
+.center
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+
+.move
+{
+
+}
+
+body
+{
+animation-name:ombre;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes ombre
+{
+    0%{background-color: rgb(253, 238, 222);}
+    50%{background-color: rgb(253, 238, 222);}
+    
+}
+@font-face
+{
+    font-family: Calligraphy;
+    src: url("Cloud Calligraphy - TTF.ttf");
+}
+
+.moveimage
+{
+    animation-name:grow;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes grow
+{
+    0%
+    {
+        transform:translate(0,0) rotate(0deg) scale(1);
+    }
+
+    25%
+    {
+        transform:translate(0,0) rotate(0deg) scale(0.75);
+    }
+
+    50%
+    {
+        transform:translate(0,0) rotate(0deg) scale(1);
+    }
+     
+    75%
+    {
+        transform:translate(0,0) rotate(0deg) scale(0.75);
+    }
+    
+
+}
+
+
+
+.button
+{
+ width:200px;
+ height:100px;
+ background-color:#f6a9a9;
+ color:rgb(253, 238, 222);
+ background-image:url(butoon.png);
+ background-size:cover;
+ transition:
+}
+.button:hover
+{
+    transform:scale(1.1);
+}
+
